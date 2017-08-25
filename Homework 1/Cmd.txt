@@ -1,0 +1,3 @@
+Cd- change directory
+cls-clear
+mkdir- make new directory
