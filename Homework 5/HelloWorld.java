@@ -22,7 +22,7 @@ public class HelloWorld
 		System.out.println(start);
 		b=Samuel.nextLine();
 		System.out.println(stop + " " + b );
-		 a= Samuel.nextLine();
+		
 		
 		
 		
