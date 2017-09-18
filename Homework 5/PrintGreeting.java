@@ -1,36 +1,21 @@
-import java.util.Scanner;
+
 /******************************************************************************
  CLASS INFORMATION                                    * Score: ______________ *
  -----------------                                    *************************
    Programmer: Sam Aponte
-   Date Due:  9/6/2017
+   Date Due:  9/15/2017
  ******************************************************************************/
-public class HelloWorld
+ import java.util.Scanner;
+public class PrintGreeting 
 {
 	public static void main(String[] args)
 	{
 	    Scanner Samuel;
+		String name;
 		Samuel = new Scanner(System.in);
-	   	
-		
-		String b;
-		String a;
-		String start;
-		String stop;
-		start = ("Hey, Whats your name?");
-		stop = ("Nice to meet you"); 
-		System.out.println(start);
-		b=Samuel.nextLine();
-		System.out.println(stop + " " + b );
-		
-		
-		
-		
-	   
-		
-		
-
-
+		System.out.println("Hey, Whats your name?");
+		name=Samuel.nextLine();
+		System.out.println("Nice to meet you " + name );
 	}
 }
   
