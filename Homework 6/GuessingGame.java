@@ -20,14 +20,14 @@ public class GuessingGame
 
 		System.out.print("Im thinking of a number between 1 and 10,000. Can you Guess???");
 		a = samuel.nextInt();
-		if (a < 7921 )
+		if (a < 5001 )
 		{
 				System.out.print("Toooooo Low there buddy >:)");
         }
-        if ( a > 7921)
+        if ( a > 5001 )
         {
             System.out.print(" So close just a little to high!");
-        }if ( a == 7921)
+        }if ( a ==  5001)
         {
             System.out.print("YOUUUUU GOTTT ITTTTTT!!!");
         }
