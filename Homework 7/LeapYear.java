@@ -6,7 +6,7 @@
    Date Due:  9/15/2017
  ******************************************************************************/
  import java.util.Scanner;
-public class GuessingGame
+public class LeapYear
 {
 	public static void main(String[] args)
 	{
@@ -18,18 +18,29 @@ public class GuessingGame
 
 
 
-		System.out.print("Im thinking of a number between 1 and 10,000. Can you Guess???");
+		System.out.print("GIve me a leap year???");
 		a = samuel.nextInt();
-		if (a < 7921 )
+		if (a % 4 == 0 )
 		{
-				System.out.print("Toooooo Low there buddy >:)");
+			if ( a % 100 == 0 )
+			{
+				if ( a % 400 == 0 )
+				{
+					System.out.println( " AYYYYY! ");
+				}
+				else
+				{
+				  	System.out.print( " NAHH BRUHH!");
+				}
+			}
+			else 
+			{
+				  System.out.print( " YAAA BRUHHH!");
+			}
         }
-        if ( a > 7921)
+        else
         {
-            System.out.print(" So close just a little to high!");
-        }if ( a = 7921)
-        {
-            System.out.print("YOUUUUU GOTTT ITTTTTT!!!");
+            System.out.print( " NAHH BRUHH!");
         }
     }    
 }
