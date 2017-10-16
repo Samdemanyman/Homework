@@ -22,15 +22,16 @@ public class Negative
 		num = keyboard.nextInt();
 		
 		while (num > 0)
-		{
-			System.out.println( " Nope try Again.");
-			num = keyboard.nextInt();
-			sum += num;
-			
+		{	
 			if (large < num)
 			{
 				large = num;
 			}
+			System.out.println( " Nope try Again.");
+			sum += num;
+			num = keyboard.nextInt();
+			
+		
 		}
 		System.out.printf(" %d is a negative number!!\n",num);
 		System.out.printf( "The sum of all your numbers was %d\n",sum );
